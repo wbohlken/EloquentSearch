@@ -1,0 +1,29 @@
+{
+    "name": "nutshell/eloquent-search",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wouter Bohlken",
+            "email": "bohlkenw@gmail.com",
+            "homepage": "http://wouterbohlken.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*|5.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nutshell\\EloquentSearch\\": "src/",
+            "Nutshell\\EloquentSearch\\Traits\\": "src/traits"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+
+}
